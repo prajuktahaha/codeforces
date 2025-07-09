@@ -2,13 +2,12 @@ import java.util.*;
 public class watermelon {
 	public static void main(String[]args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("enter the weight in kg : ");
-		int weigth = sc.nextInt();
-		if(weigth %2 == 0) {
-			System.out.println("yes");
+		int weight = sc.nextInt();
+		if(weight %2 == 0 && weight != 2) {
+			System.out.println("YES");
 		}
 		else {
-			System.out.println("no");
+			System.out.println("NO");
 		}
 	}
 }
